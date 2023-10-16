@@ -9,9 +9,13 @@ let isAlive = true;
 let message = ""
 
 
+
 console.log("Sum is : ", sum);
 
-if (sum <= 20) {
+function startGame() {
+
+  
+  if (sum <= 20) {
   message = ("Do you want to draw a new card?");
 } else if (sum === 21) {
   //=== means "strictly equal to"
@@ -23,3 +27,4 @@ if (sum <= 20) {
 }
 console.log(isAlive, hasBlackjack)
 console.log(message)
+}
