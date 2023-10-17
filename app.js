@@ -35,14 +35,14 @@ function renderGame() {
   message_el.textContent = message;
 }
 
+
+
 function newCard() {
   console.log("Nw card")
 let new_card = 4;
 sum += new_card
 
-
-cards_el.textContent += ", " + new_card;
-
 renderGame()
+cards_el.textContent += ", " + new_card; //Below renderGame() because above the function it would reperform the entire function and will give priority to renderGame function cards-el
 
 }
