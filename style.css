@@ -31,11 +31,11 @@ p {
     font-size: 5rem;
 }
 
-.start {
+button {
     background-color: gold;
     color: black;
     height: 50px;
-    width: 40%;
+    width: 250px;
     font-weight: bold;
     font-size: 1.5rem;
     cursor: pointer;
